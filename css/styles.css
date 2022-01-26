@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Rubik','sans-serif';
+    font-size: 1em;
+    color: #707070;
+    text-align: center;
+}
+h1{
+    color: #3B3B3B;
+    font-size: 2em;
+}
+
+h3 {
+    color: #3B3B3B;
+    font-size: 1.375em;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+h1 {
+    color: ;
+}
+
+h1 {
+    color: #3B3B3B;
+    font-size: ;
+}
+
+.borde{
+    border: #6ACBE0 thin solid;
+}
+
+
+/*******************************************************************/
+/* Estilos del Header
+/*******************************************************************/
+/*Solo a un elemento */
+#header{
+    background-color: #ECECEC; 
+}
+
+/*Mas de un elemento*/
+.link-menu{
+    color: #707070;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #6984E6 
+}
+
+/*******************************************************************/
+/* Estilos de Principal
+/*******************************************************************/
+#principal{
+    margin-top: 3.125em;
+    min-height: calc(100vh - 4.6875em);
+}
+
+/*******************************************************************/
+/* Estilos del Footer
+/*******************************************************************/
+#footer {
+    background: #3B3B3B;
+    color: #FFF;
+    height: 4.6875em;
+}
+
+/*******************************************************************/
+/* Estilos de Producto
+/*******************************************************************/
+#producto {
+	background:-webkit-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+	background:-moz-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+	background: linear-linear-gradient(90deg, #6859EA 10%, #6ACBE0 90%);
+	color: #FFF;
+    min-height: calc(100vh - 4.6875em);
+}
+.espacio-row {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/*******************************************************************/
+/* Estilos de Contacto
+/*******************************************************************/
+#contacto {
+	background:-webkit-linear-gradient(90deg, #1bbacf 10%, #6923eb 90%);
+	background:-moz-linear-gradient(90deg, #1bbacf 10%, #6923eb 90%);
+	background: linear-linear-gradient(90deg, #1bbacf 10%, #6923eb 90%);
+	color: rgb(216, 184, 184);
+    min-height: calc(100vh - 4.6875em);
+}
+
+.footerCard {
+    background: rgb(3, 185, 170);
+    padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.title{
+    color:rgb(243, 169, 169);
+    font-size: 3em;
+}
+
+.bodyCard{
+    background: rgb(0, 202, 91);
+}
